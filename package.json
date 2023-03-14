@@ -1,27 +1,27 @@
 {
-    "name": "aws-codepipeline-action",
-    "version": "1.0.7",
-    "description": "This GitHub Actions will help you trigger a pipeline in your AWS CodePipeline - assumming you already have the pipeline. This will not create the pipeline for you.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\""
-    },
-    "keywords": [
-        "aws",
-        "github",
-        "actions",
-        "codepipeline",
-        "trigger"
-    ],
-    "repository": {
-        "url": "https://github.com/zulhfreelancer/aws-codepipeline-action",
-        "type": "git"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "@actions/core": "^1.2.4",
-        "@actions/github": "^3.0.0",
-        "aws-sdk": "^2.705.0"
-    }
+  "name": "aws-codepipeline-action",
+  "version": "1.0.7",
+  "description": "This GitHub Actions will help you trigger a pipeline in your AWS CodePipeline - assumming you already have the pipeline. This will not create the pipeline for you.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "aws",
+    "github",
+    "actions",
+    "codepipeline",
+    "trigger"
+  ],
+  "repository": {
+    "url": "https://github.com/zulhfreelancer/aws-codepipeline-action",
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^3.0.0",
+    "aws-sdk": "^2.814.0"
+  }
 }
